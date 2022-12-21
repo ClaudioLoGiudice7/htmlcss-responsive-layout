@@ -80,6 +80,11 @@ button:hover{
     opacity: .8;
 }
 
+.fa-bars{
+    display: none;
+    color: #fff;
+}
+
 /* MAIN */
 
 .cards-container {
@@ -114,4 +119,35 @@ button:hover{
     width: 33%;
     height: 300px;
     padding: 25px;
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+   .header-links, .first-button{
+    display: none;
+   }
+
+   .logo {
+       vertical-align: middle;
+       position: absolute;
+       left: 25px;
+       top: 20px;
+   }
+
+   .fa-bars {
+       display: inline-block;
+       color: #fff;
+       position: absolute;
+       right: 25px;
+       top: 27px;
+       font-size: 22px;
+   }
+
+   .big-card{
+    flex-direction: column;
+   }
+
+   .card-text{
+    width: 100%;
+   }
 }
