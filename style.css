@@ -16,12 +16,12 @@ body {
     min-height: 100vh;
 }
 
-img,
+/* img,
 svg,
 picture,
 video {
     max-width: 100%;
-}
+} */
 
 /* Utils */
 
@@ -80,6 +80,13 @@ button:hover{
     opacity: .8;
 }
 
+.first-button{
+    padding: 10px;
+    color: black;
+    border-radius: 20px;
+    border: none;
+}
+
 .fa-bars{
     display: none;
     color: #fff;
@@ -109,8 +116,42 @@ button:hover{
     width: 50%;
 }
 
+#first-section-first-h3{
+    margin-bottom: 25px;
+}
+
+#first-section-first-p {
+    margin-bottom: 25px;
+}
+
+.blue{
+    color: #0084fd;
+}
+
+.grey-text{
+    color: #5a6e7f;
+}
+
+.blue-button {
+    background-color: #0084fd;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    width: 200px;
+}
+
+.fa-apple{
+    margin-right: 10px;
+}
+
 .card-image {
     width: 50%;
+    margin-top: 30px;
+}
+
+.phone {
+    width: 220px;
 }
 
 .card {
@@ -120,6 +161,20 @@ button:hover{
     height: 300px;
     padding: 25px;
     text-align: center;
+}
+
+.first-section-icons{
+    color: #0084fd;
+    font-size: 60px;
+    margin-bottom: 25px;
+}
+
+.first-section-h3{
+    margin-bottom: 25px;
+}
+
+.first-section-p {
+    margin-bottom: 25px;
 }
 
 .second-main-section {
@@ -160,10 +215,19 @@ button:hover{
 
 .strategic-planning{
     margin-bottom: 50px;
+    color: white;
+}
+
+#strategic-planning-p{
+    color: white;
 }
 
 .right-planning {
     width: 200px;
+}
+
+.mb25{
+    margin-bottom: 25px;
 }
 
 .italic-paragraph{
@@ -191,6 +255,15 @@ button:hover{
     margin-bottom: 35px;
 }
 
+.mb25{
+    margin-bottom: 25px;
+}
+
+.third-section-h2{
+    font-size: 30px;
+    color: #9792e4;
+}
+
 .violet-cards{
     display: flex;
     background-color: #9792e4;
@@ -198,12 +271,26 @@ button:hover{
     border-radius: 30px;
 }
 
-.third-section-left-column{
+.third-section-left-column {
     width: 20%;
 }
 
 .third-section-right-column {
     width: 80%;
+    display: flex;
+    align-items: center;
+}
+
+.third-section-right-column>.padding>p{
+    color: white;
+}
+
+.third-section-right-column>.padding>span {
+    color: white;
+}
+
+.padding{
+    padding: 40px;
 }
 
 .testimonial{
@@ -211,6 +298,7 @@ button:hover{
     height: 200px;
     border-radius: 50%;
     object-fit: cover;
+    padding: 20px;
 }
 
 .fourth-main-section{
@@ -220,14 +308,41 @@ button:hover{
 
 .benefits{
     text-align: center;
+    font-size: 30px;
+    color: white;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 .fourth-section-card {
     border-radius: 20px;
     background-color: #fff;
     width: 33%;
-    height: 300px;
+    height: 350px;
     padding: 25px;
+}
+
+.h2-fourth-section{
+    font-size: 60px;
+    color: #9792e4;
+}
+
+.h3-fourth-section{
+    color: #9792e4;
+}
+
+.p-fourth-section{
+    font-size: smaller;
+    line-height: 25px;
+}
+
+.button-fourth-section{
+    background-color: #9792e4;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    width: 45%;
+    height: 40px;
 }
 
 .fifth-main-section{
@@ -242,8 +357,19 @@ button:hover{
     width: 70%;
 }
 
+.h2-fifth-section{
+    color: #9792e4;
+    font-size: 50px;
+}
+
+.p-fifth-section{
+    line-height: 30px;
+}
+
 .fifth-section-right-column {
     width: 30%;
+    margin-left: 100px;
+    position: relative;
 }
 
 .about{
@@ -252,10 +378,46 @@ button:hover{
     border-radius: 50%;
 }
 
+.third-section-left-quote {
+    position: absolute;
+    font-size: 60px;
+    right: 55px;
+    color: #9792e4;
+}
+
+#last-fifth-section-p{
+    color: #9792e4;
+}
+
+.button-fifth-section {
+    background-color: #9792e4;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    width: 80%;
+    height: 30px;
+}
+
+.fa-linkedin{
+    margin-right: 5px;
+}
+
 .sixth-main-section{
     background-color: #9792e4;
-    margin-bottom: 100px;
     text-align: center;
+}
+
+.h3-sixth-section{
+    font-size: 30px;
+}
+
+.h2-sixth-section{
+    font-size: 60px;
+    color: #fdc15f;
+}
+
+.font-size11{
+    font-size: 11px;
 }
 
 .second-smaller-container{
@@ -268,6 +430,44 @@ button:hover{
     color: #cbc9f1;
 }
 
+.white{
+    color: white;
+}
+
+.h5-sixth-section {
+    width: 50%;
+    margin: auto;
+    margin-bottom: 25px;
+}
+
+.sixth-section-button {
+    background-color: white;
+    color: #585494;
+    border: none;
+    border-radius: 25px;
+    width: 30%;
+    height: 55px;
+}
+
+.second-h5-sixth-section{
+    font-size: 10px;
+    position: relative;
+}
+
+.span-sixth-section{
+    margin-right: 7px;
+}
+
+.fa-circle{
+    font-size: 4px;
+    position: absolute;
+    top: 4px;
+}
+
+.a-sixth-section{
+    color: white;
+}
+
 footer{
     background-color: #333333;
     color: #fff;
@@ -275,7 +475,7 @@ footer{
 }
 
 .even-smaller-container{
-    max-width: 700px;
+    max-width: 500px;
     margin: 0 auto;
     padding: 20px 20px;
 }
@@ -308,14 +508,40 @@ p>a{
 
    .big-card{
         flex-direction: column;
+        height: 430px;
+   }
+
+   .card{
+    height: 430px;
    }
 
    .card-text{
         width: 100%;
    }
 
+   #first-section-first-h3 {
+       margin-bottom: 15px;
+   }
+
+   #first-section-first-p {
+       margin-bottom: 15px;
+   }
+
+   .first-section-icons {
+       font-size: 50px;
+       margin-bottom: 15px;
+   }
+
+   .first-section-h3 {
+       margin-bottom: 15px;
+   }
+
+   .first-section-p {
+       margin-bottom: 15px;
+   }
+
    .second-main-section{
-        height: 1400px;
+        height: 1500px;
    }
 
    .smaller-container{
@@ -329,6 +555,20 @@ p>a{
 
    .left-planning, .right-planning{
         width: 400px;
+   }
+
+   .strategic-planning{
+        font-size: 50px;
+        text-align: start;
+   }
+
+   #strategic-planning-p {
+       margin-bottom: 30px;
+       text-align: start;
+   }
+
+   .white-container{
+    margin: auto;
    }
 
    .third-section-left-column {
@@ -387,11 +627,16 @@ p>a{
     .big-card {
         border-radius: 20px;
         width: 100%;
-        height: 350px;
+        height: 477px;
         background-color: #b5ddff;
         display: flex;
         padding: 25px;
         text-align: center;
+        line-height: 30px;
+    }
+
+    .blue-button{
+        margin-bottom: 30px;
     }
 
     .card {
@@ -401,6 +646,30 @@ p>a{
        height: 300px;
        padding: 25px;
        text-align: center;
+    }
+
+    .first-section-icons{
+        font-size: 60px;
+    }
+
+    .first-section-h3 {
+        font-size: 24px;
+    }
+
+    .grey-text{
+        line-height: 35px;
+    }
+
+    .second-main-section{
+        height: 1800px;
+    }
+    
+    #strategic-planning-p{
+        line-height: 35px;
+    }
+
+    .italic-paragraph{
+        line-height: 30px;
     }
 
     .card-image{
@@ -427,6 +696,23 @@ p>a{
         width: 100%;
     }
 
+    .third-section-left-quote {
+        top: 20px;
+        left: 150px;
+    }
+
+    .padding{
+        margin-top: -25px;
+    }
+
+    .p-third-section-right-column{
+        font-size: larger;
+    }
+
+    .span-third-section-right-column{
+        font-size: larger;
+    }
+
     .cards-container{
         flex-direction: column;
     }
@@ -443,11 +729,23 @@ p>a{
         width: 100%;
     }
 
-    .fifth-section-right-column{
-        width: 100%;
+    .h5-sixth-section{
+        font-size: large;
+    }
+
+    .sixth-section-button{
+        font-size: large;
+    }
+   
+    .second-h5-sixth-section {
+        font-size: smaller;
     }
 
     .even-smaller-container{
         max-width: 1000px;
+    }
+
+    .footer-p{
+        font-size: medium;
     }
 }

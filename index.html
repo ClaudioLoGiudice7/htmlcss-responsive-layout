@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
         integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -37,7 +37,7 @@
                     <a href="#" class="header-links">About Us</a>
                 </li>
                 <li class="ml mr">
-                    <button class="first-button">Get Started</button>
+                    <button class="first-button"><b>Get Started</b></button>
                 </li>
                 <i class="fa-solid fa-bars"></i>
             </ul>
@@ -49,56 +49,60 @@
         <div class="cards-container container">
             <div class="big-card">
                 <div class="card-text">
-                    <h3>
+                    <h3 id="first-section-first-h3" class="blue">
                         Get a demo application
                     </h3>
-                    <p>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus soluta, error expedita inventore porro voluptates laborum incidunt maiores adipisci?
+                    <p id="first-section-first-p" class="grey-text">
+                        <b>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus soluta, error expedita inventore porro voluptates laborum incidunt maiores adipisci?</b>
                     </p>
-                    <button>App Store</button>
+                    <button class="blue-button"><i class="fa-brands fa-apple"></i><b>App Store</b></button>
                 </div>
                 <div class="card-image">
-                    <img src="./img/phone.png" alt="phone">
+                    <img class="phone" src="./img/phone.png" alt="phone">
                 </div>
             </div>
     
             <div class="card">
-                <h3>
+                <i class="fa-solid fa-file-code first-section-icons"></i>
+                <h3 class="blue first-section-h3">
                     Clean Code
                 </h3>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, quibusdam. Est voluptates ex accusantium sed
-                    iusto reiciendis vero deserunt!
+                <p class="grey-text first-section-p">
+                    <b>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, quibusdam. Est voluptates ex accusantium sed
+                    iusto reiciendis vero deserunt!</b>
                 </p>
             </div>
 
             <div class="card">
-                <h3>
-                    Clean Code
+                <i class="fa-solid fa-compass-drafting first-section-icons"></i>
+                <h3 class="blue first-section-h3">
+                    Web Design
                 </h3>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, quibusdam. Est voluptates ex accusantium sed
-                    iusto reiciendis vero deserunt!
+                <p class="grey-text first-section-p">
+                    <b>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, quibusdam. Est voluptates ex accusantium sed
+                        iusto reiciendis vero deserunt!</b>
                 </p>
             </div>
     
             <div class="card">
-                <h3>
-                    Clean Code
+                <i class="fa-solid fa-laptop-code first-section-icons"></i>
+                <h3 class="blue first-section-h3">
+                    Development
                 </h3>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, quibusdam. Est voluptates ex accusantium sed
-                    iusto reiciendis vero deserunt!
+                <p class="grey-text first-section-p">
+                    <b>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, quibusdam. Est voluptates ex accusantium sed
+                        iusto reiciendis vero deserunt!</b>
                 </p>
             </div>
 
             <div class="card">
-                <h3>
-                    Clean Code
+                <i class="fa-solid fa-bullhorn first-section-icons"></i>
+                <h3 class="blue first-section-h3">
+                    Branding
                 </h3>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, quibusdam. Est voluptates ex accusantium sed
-                    iusto reiciendis vero deserunt!
+                <p class="grey-text first-section-p">
+                    <b>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, quibusdam. Est voluptates ex accusantium sed
+                        iusto reiciendis vero deserunt!</b>
                 </p>
             </div>
 
@@ -110,17 +114,17 @@
             <div class="left-column">
                 <img class="left-planning" src="./img/planning1.png" alt="planning">
                 <h3 class="strategic-planning">Strategic Planning</h3>
-                <p>
+                <p id="strategic-planning-p">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, sequi. Doloremque ipsum voluptate exercitationem atque alias? Corporis impedit rem quos veniam porro facere temporibus quia, hic ea sunt expedita et eligendi tempore cumque quod placeat!
                 </p>
             </div>
             <div class="right-column">
                 <div class="white-container">
-                    <img class="right-planning" src="./img/planning2.png" alt="planning2">
-                    <h3>
+                    <img class="right-planning mb25" src="./img/planning2.png" alt="planning2">
+                    <h3 class="mb25">
                         App Development
                     </h3>
-                    <p class="italic-paragraph">
+                    <p class="italic-paragraph mb25">
                         Develop an on demand app for your delivery business to reach your targeted customers without any interruption.
                     </p>
                     <div class="purple-circle">
@@ -133,9 +137,9 @@
 
     <section class="third-main-section container">
         <div class="text-align">
-            <span>TESTIMONIALS</span>
-            <h2>We are committed expert partners</h2>
-            <p>
+            <span class="mb25">TESTIMONIALS</span>
+            <h2 class="third-section-h2 mb25">We are committed expert partners</h2>
+            <p class="mb25">
                 We place huge value on strong relationships and have seen the benefit they bring to our business. Customer feedback is vital in helping us to get it right.
             </p>
         </div>
@@ -146,43 +150,51 @@
                 </div>
             </div>
             <div class="third-section-right-column">
-                <div>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum adipisci laboriosam officiis dolorum repudiandae quasi laudantium, vero corporis voluptate explicabo!
+                <div class="padding">
+                    <p class="p-third-section-right-column mb25">
+                        <i class="fa-solid fa-quote-left"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum adipisci
+                        laboriosam officiis dolorum
+                        repudiandae quasi laudantium, vero corporis voluptate explicabo! <i class="fa-solid fa-quote-right"></i>
                     </p>
-                    NAT REYNOLDS
+                    <span class="span-third-section-right-column"> <b>NAT REYNOLDS</b></span>
                 </div>
             </div>
         </div>
+        
         <div class="violet-cards">
             <div class="third-section-left-column">
                 <div>
-                    <img class="testimonial" src="./img/testimonial1.jpg" alt="testimonial1">
+                    <img class="testimonial" src="./img/testimonial2.jpg" alt="testimonial2">
                 </div>
             </div>
             <div class="third-section-right-column">
-                <div>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum adipisci laboriosam officiis dolorum
-                        repudiandae quasi laudantium, vero corporis voluptate explicabo!
+                <div class="padding">
+                    <p class="p-third-section-right-column mb25">
+                        <i class="fa-solid fa-quote-left"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
+                        adipisci
+                        laboriosam officiis dolorum
+                        repudiandae quasi laudantium, vero corporis voluptate explicabo! <i class="fa-solid fa-quote-right"></i>
                     </p>
-                    NAT REYNOLDS
+                    <span class="span-third-section-right-column"> <b>CELIA ALMEDA</b></span>
                 </div>
             </div>
         </div>
+        
         <div class="violet-cards">
             <div class="third-section-left-column">
                 <div>
-                    <img class="testimonial" src="./img/testimonial1.jpg" alt="testimonial1">
+                    <img class="testimonial" src="./img/testimonial3.jpg" alt="testimonial3">
                 </div>
             </div>
             <div class="third-section-right-column">
-                <div>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum adipisci laboriosam officiis dolorum
-                        repudiandae quasi laudantium, vero corporis voluptate explicabo!
+                <div class="padding">
+                    <p class="p-third-section-right-column mb25">
+                        <i class="fa-solid fa-quote-left"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
+                        adipisci
+                        laboriosam officiis dolorum
+                        repudiandae quasi laudantium, vero corporis voluptate explicabo! <i class="fa-solid fa-quote-right"></i>
                     </p>
-                    NAT REYNOLDS
+                    <span class="span-third-section-right-column"> <b>BOB ROBERTS</b></span>
                 </div>
             </div>
         </div>
@@ -193,87 +205,87 @@
             <h2 class="benefits">Benefits of working with us</h2>
             <div class="cards-container">
                 <div class="fourth-section-card">
-                    <h2>
+                    <h2 class="h2-fourth-section mb25">
                         01
                     </h2>
-                    <h3>
+                    <h3 class="h3-fourth-section mb25">
                         High Quality
                     </h3>
-                    <p>
+                    <p class="p-fourth-section mb25">
                         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus soluta, error expedita inventore
                         porro voluptates laborum incidunt maiores adipisci?
                     </p>
-                    <button>more</button>
+                    <button class="button-fourth-section mb25"><b>more</b></button>
                 </div>
                 
                 <div class="fourth-section-card">
-                    <h2>
+                    <h2 class="h2-fourth-section mb25">
                         02
                     </h2>
-                    <h3>
-                        High Quality
+                    <h3 class="h3-fourth-section mb25">
+                        Creative Team
                     </h3>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, quibusdam. Est voluptates ex accusantium sed
-                        iusto reiciendis vero deserunt!
+                    <p class="p-fourth-section mb25">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus soluta, error expedita inventore
+                        porro voluptates laborum incidunt maiores adipisci?
                     </p>
-                    <button>more</button>
+                    <button class="button-fourth-section mb25"><b>more</b></button>
                 </div>
         
                 <div class="fourth-section-card">
-                    <h2>
+                    <h2 class="h2-fourth-section mb25">
                         03
                     </h2>
-                    <h3>
-                        High Quality
+                    <h3 class="h3-fourth-section mb25">
+                        Amazing Results
                     </h3>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, quibusdam. Est voluptates ex accusantium sed
-                        iusto reiciendis vero deserunt!
+                    <p class="p-fourth-section mb25">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus soluta, error expedita inventore
+                        porro voluptates laborum incidunt maiores adipisci?
                     </p>
-                    <button>more</button>
+                    <button class="button-fourth-section mb25"><b>more</b></button>
                 </div>
             
                 <div class="fourth-section-card">
-                    <h2>
+                    <h2 class="h2-fourth-section mb25">
                         04
                     </h2>
-                    <h3>
-                        High Quality
+                    <h3 class="h3-fourth-section mb25">
+                        Best Pricing
                     </h3>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, quibusdam. Est voluptates ex accusantium sed
-                        iusto reiciendis vero deserunt!
+                    <p class="p-fourth-section mb25">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus soluta, error expedita inventore
+                        porro voluptates laborum incidunt maiores adipisci?
                     </p>
-                    <button>more</button>
+                    <button class="button-fourth-section mb25"><b>more</b></button>
                 </div>
             
                 <div class="fourth-section-card">
-                    <h2>
+                    <h2 class="h2-fourth-section mb25">
                         05
                     </h2>
-                    <h3>
-                        High Quality
+                    <h3 class="h3-fourth-section mb25">
+                        Innovations
                     </h3>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, quibusdam. Est voluptates ex accusantium sed
-                        iusto reiciendis vero deserunt!
+                    <p class="p-fourth-section mb25">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus soluta, error expedita inventore
+                        porro voluptates laborum incidunt maiores adipisci?
                     </p>
-                    <button>more</button>
+                    <button class="button-fourth-section mb25"><b>more</b></button>
                 </div>
             
                 <div class="fourth-section-card">
-                    <h2>
+                    <h2 class="h2-fourth-section mb25">
                         06
                     </h2>
-                    <h3>
-                        High Quality
+                    <h3 class="h3-fourth-section mb25">
+                        24/7 Support
                     </h3>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, quibusdam. Est voluptates ex accusantium sed
-                        iusto reiciendis vero deserunt!
+                    <p class="p-fourth-section mb25">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus soluta, error expedita inventore
+                        porro voluptates laborum incidunt maiores adipisci?
                     </p>
-                    <button>more</button>
+                    <button class="button-fourth-section mb25"><b>more</b></button>
                 </div>
             
             </div>
@@ -283,23 +295,24 @@
     <section class="fifth-main-section">
         <div class="fifth container">
             <div class="fifth-section-left-column">
-                <h2>
+                <h2 class="h2-fifth-section mb25">
                     About Us
                 </h2>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos est culpa officia sapiente. Provident, repellat iusto delectus nam id similique?
+                <p class="p-fifth-section mb25">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut, doloribus aliquid? Dicta molestiae minima beatae rem tenetur saepe? Sequi eligendi nobis animi autem itaque asperiores nulla vel, illo maiores. Modi hic voluptatum repellendus dignissimos molestiae, quis aspernatur cum rerum vel similique esse magni consectetur, tempore explicabo natus voluptas! Ad nesciunt dolorum perspiciatis iste doloremque amet deserunt eius. Iusto, aliquam! Sint!
                 </p>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos est culpa officia sapiente. Provident, repellat iusto delectus nam id similique?
+                <p class="p-fifth-section mb25">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut, doloribus aliquid? Dicta molestiae minima beatae rem tenetur saepe? Sequi eligendi nobis animi autem itaque asperiores nulla vel, illo maiores. Modi hic voluptatum repellendus dignissimos molestiae, quis aspernatur cum rerum vel similique esse magni consectetur, tempore explicabo natus voluptas! Ad nesciunt dolorum perspiciatis iste doloremque amet deserunt eius. Iusto, aliquam! Sint!
                 </p>
             </div>
             <div class="fifth-section-right-column">
-                <img class="about" src="./img/about.jpg" alt="about">
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, non!
+                <img class="about mb25" src="./img/about.jpg" alt="about">
+                <i class="fa-solid fa-quote-left third-section-left-quote"></i>
+                <p class="mb25" id="last-fifth-section-p">
+                    <b>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam deleniti quisquam ut consequatur et minima cumque aliquam consectetur laudantium fuga alias dolores, ullam tenetur rem?</b>
                 </p>
-                <button>
-                    <i class="fa-brands fa-linkedin"></i>
+                <button class="button-fifth-section">
+                    <i class="fa-brands fa-linkedin"></i> 
                     Find me on linkedin
                 </button>
             </div>
@@ -308,26 +321,26 @@
 
     <section class="sixth-main-section">
         <div class="second-smaller-container">
-            <h5 class="get-started">GET STARTED</h5>
-            <h3>Simple, Transparent Pricing</h3>
-            <h2>It's Free!</h2>
-            <h5>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione magni blanditiis similique illum minima ea earum placeat id temporibus voluptatum?
+            <h5 class="get-started mb25">GET STARTED</h5>
+            <h3 class="h3-sixth-section white mb25">Simple, Transparent Pricing</h3>
+            <h2 class="h2-sixth-section mb25">It's Free!</h2>
+            <h5 class="h5-sixth-section white mb25 font-size11">
+                We're still in beta and we will be for a while. As we add more functionality, we'll look into other plans with more controls.
             </h5>
-            <button class="fifth-section-button">Get Started</button>
-            <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore, vel.</h5>
+            <button class="sixth-section-button mb25">Get Started</button>
+            <h5 class="second-h5-sixth-section white mb25 font-size11">Copyright 2021 Boolean <span class="span-sixth-section"><i class="fa-solid fa-circle"></i></span>Classe XX <span class="span-sixth-section"><i class="fa-solid fa-circle"></i></span> <a class="a-sixth-section" href="#">Privacy policy</a></h5>
         </div>
     </section>
 </main>
 
 <footer>
     <div class="even-smaller-container">
-        <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi ipsum quae ducimus fuga earum, nihil vel.
+        <p class="footer-p font-size11">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi ipsum quae ducimus fuga earum, nihil vel!
         </p>
         <br>
         <br>
-        <p>
+        <p class="footer-p font-size11">
             <a href="#">Lorem ipsum</a> dolor sit amet <a href="#">Boolean Careers</a>
         </p>
     </div>
